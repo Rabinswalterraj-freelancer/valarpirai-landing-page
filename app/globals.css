@@ -10,7 +10,9 @@
 }
 
 @layer base {
-
+  html {
+    scroll-behavior: smooth;
+  }
   .brand-container {
     @apply container mx-auto px-5
   }

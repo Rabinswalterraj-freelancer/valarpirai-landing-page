@@ -60,16 +60,52 @@ export default function Home() {
 
   return (
     <main className="" id="home">
-      <section
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
-          height: '100vh' // Adjust height as needed
-        }}
-        className="relative "
-      >
+      <section className="bg-primary/40 overflow-hidden">
+        <div className="flex flex-col lg:flex-row lg:items-stretch lg:min-h-[800px]">
+          <div className="relative flex items-center justify-center w-full lg:order-2 lg:w-7/12">
+            <div className="absolute bottom-0 right-0 hidden lg:block">
+              <Image
+                className="object-contain"
+                src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/3/curved-lines.png"
+                alt="Curved lines"
+                width={192}
+                height={192}
+              />
+            </div>
+
+            <div className="relative px-4 pt-24 pb-16 text-center sm:px-6 md:px-24 2xl:px-32 lg:py-24 lg:text-left">
+              <h1 className="text-4xl font-bold text-black sm:text-6xl xl:text-8xl">
+                Get it done.<br />
+                Fast, Easy.
+              </h1>
+              <p className="mt-8 text-xl text-black">
+                We help you to make your remote work life easier. Build a distraction-free working experience.
+              </p>
+            </div>
+
+          </div>
+
+          <div className="relative w-full overflow-hidden lg:order-1 h-96 lg:h-auto lg:w-5/12">
+            <div className="absolute inset-0">
+              <Image
+                className="object-cover"
+                src="https://images.unsplash.com/photo-1659005766979-45ab682d1d0b?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Man working on laptop"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+
+            <div className="absolute bottom-0 left-0">
+              <div className="p-4 sm:p-6 lg:p-8">
+                
+                <p className="max-w-xs mt-1.5 text-xl text-white">Professionals have organized their desk via PostCra</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="pt-10 bg-gray-100 sm:pt-16 lg:pt-24" id="about">
