@@ -79,7 +79,7 @@ export default function Home() {
               About us
             </h2>
             <p className="mt-6 text-lg text-gray-900">
-            At Valarpirai Electronics, we are passionate about bringing cutting-edge technology to your doorstep. As a trusted provider in the electronics market, our mission is to offer quality products and expert advice to help you stay ahead in the digital world
+              At Valarpirai Electronics, we are passionate about bringing cutting-edge technology to your doorstep. As a trusted provider in the electronics market, our mission is to offer quality products and expert advice to help you stay ahead in the digital world
             </p>
             <Link href="#contact" title="Contact our support">
               <div className="inline-flex items-center justify-center px-6 py-4 mt-12 text-base font-semibold text-white transition-all duration-200 bg-primary border border-transparent rounded-md hover:bg-primary focus:bg-primary">
@@ -122,8 +122,13 @@ export default function Home() {
                   <div className="mt-8">
                     <div className="w-full h-0 mb-8 border-t-2 border-gray-200 border-dotted"></div>
                     <div className="flex items-center">
-                      <img className="flex-shrink-0 object-cover w-10 h-10 rounded-full" src={testimonial.image} alt={testimonial.name} />
-                      <div className="ml-3">
+                      <Image
+                        className="flex-shrink-0 object-cover w-10 h-10 rounded-full"
+                        src={testimonial.image}
+                        alt={testimonial.name}
+                        width={40}  // Specify the width
+                        height={40} // Specify the height
+                      />                      <div className="ml-3">
                         <p className="text-base font-semibold text-gray-800 truncate">{testimonial.name}</p>
                         <p className="text-base text-gray-500 truncate">{testimonial.title}</p>
                       </div>
