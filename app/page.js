@@ -188,27 +188,30 @@ export default function Home() {
           </div>
 
           <div className="max-w-5xl mx-auto mt-12 sm:mt-16">
-            <div className="grid grid-cols-1 gap-6 px-8 text-center md:px-0 md:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 px-2 text-center md:px-0 md:grid-cols-3">
               <div className="overflow-hidden bg-white rounded-xl">
                 <div className="p-6">
                   <FaPhoneAlt className="flex-shrink-0 w-10 h-10 mx-auto text-primary" />
-                  <p className="mt-6 text-lg font-medium text-gray-900">+1-316-555-0116</p>
-                  <p className="mt-1 text-lg font-medium text-gray-900">+1-446-526-0117</p>
+                  <p className="mt-6 text-lg font-medium text-gray-900">+91 9626481222</p>
+                  <p className="mt-1 text-lg font-medium text-gray-900">+91 9942074399</p>
                 </div>
               </div>
 
               <div className="overflow-hidden bg-white rounded-xl">
                 <div className="p-6">
                   <FaEnvelope className="flex-shrink-0 w-10 h-10 mx-auto text-primary" />
-                  <p className="mt-6 text-lg font-medium text-gray-900">contact@example.com</p>
-                  <p className="mt-1 text-lg font-medium text-gray-900">hr@example.com</p>
+                  <p className="mt-6 text-lg font-medium text-gray-900 text-wrap">contact@valarpiraielectronics.com</p>
+                  {/* <p className="mt-1 text-lg font-medium text-gray-900">adm@example.com</p> */}
                 </div>
               </div>
 
               <div className="overflow-hidden bg-white rounded-xl">
                 <div className="p-6">
                   <FaMapMarkerAlt className="flex-shrink-0 w-10 h-10 mx-auto text-primary" />
-                  <p className="mt-6 text-lg font-medium leading-relaxed text-gray-900">8502 Preston Rd. Ingle, Maine 98380, USA</p>
+                  <p className="mt-6 text-lg font-medium leading-relaxed text-gray-900">
+                  109/2, TRICHY ROAD, PALLADAM, Tiruppur, Tamil Nadu,
+                  641664
+                  </p>
                 </div>
               </div>
             </div>
